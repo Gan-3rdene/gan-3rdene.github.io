@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html>
-
-
 <head>
    <link rel="stylesheet" type="text/css" href="./styles/global.css">
 </head>
@@ -10,7 +8,7 @@
       <div class = "offscreen">
          <ul>
             <li>Browse Games</li>
-            <li>My Library</li>
+            <li onclick="changeToLibrary()">My Library</li>
             <li>Upload Games</li>
             <li>Learn HTML/Java</li>
          </ul>
@@ -26,7 +24,7 @@
             <p>Whatever Games</p>
          </div>
          <div class="searchBar">
-            <input type="text" placeholder="Search for games">
+            <input type="text" placeholder="Search for games" class="navSearch">
             <button>
                <img class="searchIcon" src="./resources/search.png" alt="searchIcon">
             </button>
@@ -37,11 +35,11 @@
          </div>
       </nav>
    </header>
-   <body>
+   <div class="contain">
       <div class="column" id="padding">
          <p>Latest Games</p>
          <div class="cardRow">
-            <div class="gameCard">
+            <div class="gameCard" onclick="changeToGame()">
                <img class="gameImage" src="resources/snake.jpg" alt="Snake">
                <div class="pcollection">
                   <p>Name</p>
@@ -112,6 +110,6 @@
          </div>
       </div>
       <script src="./javascript/mainhtml.js"></script>
-   </body>
+   </contain>
 </body>
 </html>

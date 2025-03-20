@@ -9,13 +9,7 @@ hamMenu.addEventListener('click', () => {
 
 function changeToLibrary(){
     // var url = "https://gan-3rdene.github.io/sub_pages/library.html";
-    var url = "./sub_pages/library.html";
-    window.location.replace(url);
-}
-
-function changeToGame(){
-    // var url = "https://gan-3rdene.github.io/sub_pages/library.html";
-    var url = "./sub_pages/game.html";
+    var url = "./library.html";
     window.location.replace(url);
 }
 
