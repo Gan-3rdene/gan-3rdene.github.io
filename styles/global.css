@@ -203,3 +203,69 @@ button {
 .pcollection {
    justify-content: start;
 }
+
+footer {
+   width: 100%;
+   background-color: white;
+   padding: 20px 0;
+   box-shadow: 0 -2px 15px rgba(0, 0, 0, 0.1);
+   margin-top: auto;
+ }
+ 
+ .footer-container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+ }
+ 
+ .social-icons {
+   display: flex;
+   gap: 15px;
+ }
+ 
+ .social-icon img {
+   width: 24px;
+   height: 24px;
+   transition: transform 0.3s ease;
+ }
+ 
+ .social-icon img:hover {
+   transform: translateY(-3px);
+ }
+ 
+ .footer-links {
+   display: flex;
+   gap: 25px;
+ }
+ 
+ .footer-links a {
+   text-decoration: none;
+   color: #555;
+   font-weight: 500;
+   transition: color 0.3s ease;
+ }
+ 
+ .footer-links a:hover {
+   color: #4facfe;
+ }
+ 
+ 
+ @media (max-width: 768px) {
+   /* nav {
+     flex-direction: column;
+     gap: 15px;
+   }
+   
+   .searchBar {
+     width: 100%;
+   } */
+   
+   .footer-container {
+     flex-direction: column;
+     gap: 20px;
+   }
+ }
