@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="../styles/global.css">
+   <link rel="stylesheet" type="text/css" href="../styles/game.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class = "offscreen">
+            <ul>
+                <li>Browse Games</li>
+                <li onclick="changeToLibrary()">My Library</li>
+                <li>Upload Games</li>
+                <li>Learn HTML/Java</li>
+            </ul>
+        </div>
+        <nav>
+            <div class="row">
+                <div class = "ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="row" onclick="changeToMain()">
+                    <img class="webIcon" src="../resources/cartridge.jpg" alt="cartridge">
+                    <p>Whatever Games</p>
+                </div>
+            </div>
+            <div class="searchBar">
+                <input type="text" placeholder="Search for games">
+                <button>
+                    <img class="searchIcon" src="../resources/search.png" alt="searchIcon">
+                </button>
+            </div>
+            <div class="row" onclick="signup()">
+                <img class="" src="../resources/circle-user-round.svg" alt="userIcon">
+                <p>Sign up</p>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="contain">
+        <div class="line">
+        </div>
+    </div>
+
+    <div class="column">
+        
+        <img class="gamePart" src="../resources/screenshot/snake.png"/>
+        <div class="endRow">
+            <p>Snake</p>
+            <div class="row">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="endRow">
+            <input type="text" placeholder="Leave a comment."/>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="../resources/circle-user-round.svg">
+                <p>Qewp123</p>
+            </div>
+            <p>Classic but gold, def worth your time!</p>
+        </div>
+        <script src="../javascript/gamepage.js"></script>
+    </div>
+    
+ </body>
+</html>
