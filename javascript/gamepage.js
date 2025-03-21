@@ -18,3 +18,8 @@ function changeToMain(){
     var url = "../index.html";
     window.location.replace(url);
 }
+
+function signup() {
+    var url = "/login.html"
+    window.location.replace(url)
+}

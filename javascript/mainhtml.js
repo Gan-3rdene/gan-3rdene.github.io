@@ -24,3 +24,8 @@ function changeToMain(){
     var url = "../index.html";
     window.location.replace(url);
 }
+
+function signup() {
+    var url = "./sub_pages/login.html"
+    window.location.replace(url)
+}

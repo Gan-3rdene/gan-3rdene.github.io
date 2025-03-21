@@ -7,9 +7,15 @@ hamMenu.addEventListener('click', () => {
     offScreenMenu.classList.toggle('active');
 })
 
+function changeToLibrary(){
+    // var url = "https://gan-3rdene.github.io/sub_pages/library.html";
+    var url = "./sub_pages/library.html";
+    window.location.replace(url);
+}
+
 function changeToGame(){
     // var url = "https://gan-3rdene.github.io/sub_pages/library.html";
-    var url = "./game.html";
+    var url = "./sub_pages/game.html";
     window.location.replace(url);
 }
 
@@ -20,6 +26,11 @@ function changeToMain(){
 }
 
 function signup() {
-    var url = "/login.html"
+    var url = "./sub_pages/login.html"
+    window.location.replace(url)
+}
+
+function busLogin() {
+    var url = "./sub_pages/buslogin.html"
     window.location.replace(url)
 }
