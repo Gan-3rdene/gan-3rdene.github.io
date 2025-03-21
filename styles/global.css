@@ -195,3 +195,11 @@ button {
    color: red;
 }
 
+/* move to game .css later */
+.earnings {
+   color: rgb(3, 213, 3);
+}
+
+.pcollection {
+   justify-content: start;
+}
